@@ -40,4 +40,4 @@ jobs:
 
     - name: Check style with Ruff
       run: |
-        python3 -m ruff check --exit-zero --output-format=github inflammation
+        python -m ruff check --exit-zero --output-format=github inflammation
