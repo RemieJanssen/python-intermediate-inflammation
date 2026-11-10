@@ -1,5 +1,4 @@
 astroid==4.3.4
-contourpy==1.4.0
 coverage==7.17.2
 cycler==0.12.1
 dill==0.4.1
