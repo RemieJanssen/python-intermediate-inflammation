@@ -22,3 +22,6 @@ site/
 # Virtual environments
 venv/
 .venv/
+
+# UV
+uv.lock

@@ -8,9 +8,18 @@ version = "0.1.0"
 requires-python = ">=3.9"
 description = "A Python data management system that manages trial data used in clinical inflammation studies."
 readme = "README.md"
+dependencies = [
+    "matplotlib>=3.9.4",
+    "numpy>=2.0.2",
+]
 
 [tool.setuptools]
 packages = ["inflammation"]
 
 [tool.ruff]
 line-length = 100
+
+[dependency-groups]
+dev = [
+    "mkdocs>=1.6.1",
+]
